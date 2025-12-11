@@ -3,10 +3,7 @@ export default {
     description: 'Documentation for the OpenAI PHP client package',
     themeConfig: {
         nav: [
-            {text: 'Home', link: '/'},
-            {text: 'Usage', link: '/usage'},
-            {text: 'Laravel', link: '/laravel'},
-            {text: 'API', link: '/api'}
+            {text: 'Home', link: '/'}
         ]
     }
 };
