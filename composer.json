@@ -1,0 +1,42 @@
+{
+  "name": "fixik/openai-client",
+  "description": "A PHP client for the OpenAI API with chat, embeddings, images, fine-tuning, Laravel support, and tests.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.8",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=10.0",
+    "pestphp/pest": ">=2.0",
+    "phpstan/phpstan": ">=1.10",
+    "vimeo/psalm": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fixik\\OpenAI\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Fixik\\OpenAI\\Laravel\\OpenAIServiceProvider"
+      ],
+      "aliases": {
+        "OpenAI": "Fixik\\'OpenAI\\Laravel\\OpenAIFacade"
+      }
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
