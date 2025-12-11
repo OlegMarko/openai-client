@@ -30,8 +30,8 @@ jobs:
 #      - name: Run Psalm
 #        run: vendor/bin/psalm --no-cache
 
-      - name: Run Pest
-        run: vendor/bin/pest --coverage
+      - name: Run Pest and Generate Clover Coverage Report
+        run: vendor/bin/pest --coverage --coverage-clover=coverage.xml
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
