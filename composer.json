@@ -41,7 +41,7 @@
         "Fixik\\OpenAI\\Laravel\\OpenAIServiceProvider"
       ],
       "aliases": {
-        "OpenAI": "Fixik\\OpenAI\\Laravel\\OpenAI"
+        "OpenAI": "Fixik\\OpenAI\\Laravel\\Facades\\OpenAI"
       }
     }
   },
