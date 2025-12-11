@@ -25,7 +25,7 @@ class OpenAIClient
         $this->http = new Client([
             'base_uri' => $this->baseUrl,
             'headers' => [
-                'Authorization' => "Bearer {$apiKey}",
+                'Authorization' => "Bearer $apiKey",
                 'Content-Type' => 'application/json'
             ]
         ]);
