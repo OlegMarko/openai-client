@@ -34,4 +34,24 @@ class OpenAIClient
         $this->fineTune = new FineTuneService($this->http);
         $this->images = new ImageService($this->http);
     }
+
+    public function chat(): ChatService
+    {
+        return $this->chat;
+    }
+
+    public function embeddings(): EmbeddingService
+    {
+        return $this->embeddings;
+    }
+
+    public function fineTune(): FineTuneService
+    {
+        return $this->fineTune;
+    }
+
+    public function images(): ImageService
+    {
+        return $this->images;
+    }
 }

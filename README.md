@@ -27,12 +27,38 @@ php artisan vendor:publish --provider="Fixik\OpenAI\Laravel\OpenAIServiceProvide
 OPENAI_API_KEY=your_key
 ```
 
-## Usage Example
+## Usage Example PHP
 ```php
-use Fixik\OpenAI;
+use Fixik\OpenAI\OpenAIClient;
 
-$response = OpenAI::chat->send('gpt-4.1', 'Hello AI');
-echo $response;
+$apiKey = 'YOUR_OPENAI_API_KEY_HERE';
+
+$openaiClient = new OpenAIClient($apiKey);
+
+$message = "Write a haiku about modern PHP development.";
+
+$openaiClient->chat()->send('gpt-3.5-turbo', $message);
+$openaiClient->embeddings()->create('gpt-3.5-turbo', $message);
+$openaiClient->fineTune()->create([
+    'model' => 'gpt-3.5-turbo',
+    'training_file' => 'file-id',
+]);
+$openaiClient->fineTune()->retrieve($jobId);
+$openaiClient->images()->generate($message);
+```
+
+## Usage Example Laravel
+```php
+$message = "Write a haiku about modern PHP development.";
+
+OpenAI::chat()->send('gpt-3.5-turbo', $message);
+OpenAI::embeddings()->create('gpt-3.5-turbo', $message);
+OpenAI::fineTune()->create([
+    'model' => 'gpt-3.5-turbo',
+    'training_file' => 'file-id',
+]);
+OpenAI::fineTune()->retrieve($jobId);
+OpenAI::images()->generate($message);
 ```
 
 ## Testing
