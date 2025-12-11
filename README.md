@@ -1,9 +1,9 @@
 # OpenAI PHP Client
 
-![CI](https://github.com/fixik/openai-client/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/OlegMarko/openai-client/actions/workflows/ci.yml/badge.svg)
 ![Packagist Version](https://img.shields.io/packagist/v/fixik/openai-client)
 ![PHP Version](https://img.shields.io/packagist/php-v/fixik/openai-client)
-![Coverage](https://codecov.io/gh/fixik/openai-client/branch/main/graph/badge.svg)
+![Coverage](https://codecov.io/gh/OlegMarko/openai-client/branch/main/graph/badge.svg)
 
 A powerful PHP client for the OpenAI API with support for:
 - Chat
