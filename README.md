@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/OlegMarko/openai-client/actions/workflows/ci.yml/badge.svg)
 ![Packagist Version](https://img.shields.io/packagist/v/fixik/openai-client)
-[![Total Downloads](https://poser.pugx.org/fixik/openai-clien/downloads)](https://packagist.org/packages/fixik/openai-clien)
+![Total Downloads](https://poser.pugx.org/fixik/openai-client/downloads)
 ![Coverage](https://codecov.io/gh/OlegMarko/openai-client/branch/main/graph/badge.svg)
 [![License](https://poser.pugx.org/fixik/openai-client/license)](https://packagist.org/packages/fixik/openai-client)
 
