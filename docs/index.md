@@ -6,7 +6,7 @@ A powerful PHP SDK for OpenAI chat, embeddings, images, fine-tuning + Laravel su
 ![Packagist Version](https://img.shields.io/packagist/v/fixik/openai-client)
 [![Total Downloads](https://poser.pugx.org/fixik/openai-client/downloads)](https://packagist.org/packages/fixik/openai-client)
 ![Coverage](https://codecov.io/gh/OlegMarko/openai-client/branch/main/graph/badge.svg)
-[![License](https://poser.pugx.org/fixik/openai-client/license)](https://packagist.org/packages/fixik/openai-client)
+![License](https://poser.pugx.org/fixik/openai-client/license)
 
 ## Installation
 ```bash
