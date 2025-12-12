@@ -4,7 +4,7 @@
 ![Packagist Version](https://img.shields.io/packagist/v/fixik/openai-client)
 ![Total Downloads](https://poser.pugx.org/fixik/openai-client/downloads)
 ![Coverage](https://codecov.io/gh/OlegMarko/openai-client/branch/main/graph/badge.svg)
-[![License](https://poser.pugx.org/fixik/openai-client/license)](https://packagist.org/packages/fixik/openai-client)
+![License](https://poser.pugx.org/fixik/openai-client/license)
 
 A powerful PHP client for the OpenAI API with support for:
 - Chat
